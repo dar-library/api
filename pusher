@@ -1,0 +1,16 @@
+git add .
+git commit -m "update"
+git tag -a v1.0.3 -m "updated release"
+git push -u origin main
+git push --tags
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/machapisho/api.git
+git tag -a v1.0.0 -m "updated release"
+git push -u origin master
+git push --tags
+
+                
